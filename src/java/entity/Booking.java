@@ -11,5 +11,7 @@ package entity;
  * @author Paul
  */
 public class Booking {
-    
+    public Booking() {
+        
+    }
 }
