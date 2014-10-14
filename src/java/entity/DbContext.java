@@ -12,4 +12,7 @@ package entity;
  */
 public class DbContext {
     
+    public DummyDB getEntityManager() {
+        return null;
+    }
 }

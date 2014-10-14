@@ -13,11 +13,21 @@ package entity;
 public class Seat {
     private String seatNo;
     private boolean isBooked,isReserved;
+    private Plane plane;
             
-    public Seat(String seatNo,boolean isBooked,boolean isReserved) {
+    public Seat(String seatNo,boolean isBooked,boolean isReserved,Plane plane) {
         this.seatNo = seatNo;
         this.isBooked= isBooked;
         this.isReserved = isReserved;
+        this.plane = plane;
+    }
+
+    public Plane getPlane() {
+        return plane;
+    }
+
+    public void setPlane(Plane plane) {
+        this.plane = plane;
     }
 
     public String getSeatNo() {
